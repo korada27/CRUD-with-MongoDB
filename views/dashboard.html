@@ -1,0 +1,14 @@
+<div>
+    <h1> Dashboard </h1>
+	<table>
+		<tr> <td>Name : </td> <td><b><%= userData.eName %></h4></b> </tr>
+		<tr> <td> Email: </td> <td><b><%= userData.eEmail %></b></td> </tr>
+		<tr> <td>Email ID : </td> <td><b><%= userData.eId %></b></td> </tr>
+		<tr> <td>Department : </td> <td><b><%= userData.eDepartment %></b></td> </tr>
+		<tr> <td>Salary : </td> <td><b><%= userData.eSalary %></b></td> </tr>
+	</table>
+	
+	<a href="/editprofile/<%= userData.eId %>">Edit</a>
+	<a href="/logout">Logout</a>
+     
+</div>    
